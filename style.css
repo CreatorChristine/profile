@@ -1,0 +1,97 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Jost:ital,wght@0,400;0,900;1,300&family=Tinos:wght@700&display=swap');
+
+body {
+    background-color: #FBF5F3;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.9px;
+    line-height: 1;
+    text-align: center;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.img-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: black;
+    border-width: 1px;
+}
+
+.card-white {
+    background-color: rgba(255, 255, 255, 0.719);
+    padding: 40px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.card-white h2 {
+    font-family: 'Courgette', cursive;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-family: 'Tinos', serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+p {
+    font-size: smaller;
+}
+
+a {
+    text-decoration: none;
+    color: #64B6AC;
+}
+
+a:hover {
+    color: #3E7882;
+}
+
+.btn-orange {
+    color: whitesmoke;
+    background-color: #E28413;
+    border-radius: 4px;
+    margin: 5px 8px;
+    padding: 8px 10px;
+    font-weight: 500;
+    border: #E28413;
+    font-weight: bold;
+    background-image: linear-gradient(bottom, rgb(236, 147, 44) 0%, rgba(250, 226, 181, 0.836) 100%);
+}
+
+.btn-orange:hover {
+    background-color: #B15C0D;
+    border: 2px solid #F7CD72;
+}
+
+.icon-size {
+    font-size: 32px;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#footer {
+    font-size: 40px;
+}
